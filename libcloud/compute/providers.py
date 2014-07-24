@@ -147,6 +147,8 @@ DRIVERS = {
     ('libcloud.compute.drivers.ec2', 'OutscaleSASNodeDriver'),
     Provider.OUTSCALE_INC:
     ('libcloud.compute.drivers.ec2', 'OutscaleINCNodeDriver'),
+    Provider.VULTR:
+    ('libcloud.compute.drivers.vultr', 'VultrNodeDriver'),
 
     # Deprecated
     Provider.CLOUDSIGMA_US:

@@ -76,6 +76,7 @@ class Provider(object):
     :cvar IKOULA: Ikoula driver.
     :cvar OUTSCALE_SAS: Outscale SAS driver.
     :cvar OUTSCALE_INC: Outscale INC driver.
+    :cvar VULTR: Vultr
     """
     DUMMY = 'dummy'
     EC2 = 'ec2_us_east'
@@ -121,6 +122,7 @@ class Provider(object):
     IKOULA = 'ikoula'
     OUTSCALE_SAS = 'outscale_sas'
     OUTSCALE_INC = 'outscale_inc'
+    VULTR = 'VULTR'
 
     # OpenStack based providers
     HPCLOUD = 'hpcloud'
