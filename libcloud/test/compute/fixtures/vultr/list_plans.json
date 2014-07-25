@@ -1,0 +1,22 @@
+{
+    "1": {
+        "VPSPLANID": "1",
+        "name": "Starter",
+        "vcpu_count": "1",
+        "ram": "512",
+        "disk": "20",
+        "bandwidth": "1",
+        "price_per_month": "5.00",
+        "windows": true
+    },
+    "2": {
+        "VPSPLANID": "2",
+        "name": "Basic",
+        "vcpu_count": "1",
+        "ram": "1024",
+        "disk": "30",
+        "bandwidth": "2",
+        "price_per_month": "8.00",
+        "windows": false
+    }
+}

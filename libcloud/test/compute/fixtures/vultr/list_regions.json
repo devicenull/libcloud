@@ -1,0 +1,16 @@
+{
+    "1": {
+        "DCID": "1",
+        "name": "New Jersey",
+        "country": "US",
+        "continent": "North America",
+        "state": "NJ"
+    },
+    "2": {
+        "DCID": "2",
+        "name": "Chicago",
+        "country": "US",
+        "continent": "North America",
+        "state": "IL"
+    }
+}

@@ -158,10 +158,10 @@ class VultrNodeDriver(NodeDriver):
         return NodeSize(
             id=data['VPSPLANID'],
             name=data['name'],
-            ram=data['ram'],
-            disk=data['disk'],
-            bandwidth=data['bandwidth'],
-            price=data['price_per_month'],
+            ram=int(data['ram']),
+            disk=int(data['disk']),
+            bandwidth=float(data['bandwidth']),
+            price=float(data['price_per_month']),
             extra=extra,
             driver=self
         )
